@@ -12,7 +12,7 @@ const about = () => {
               <div className="top-left">
                 <h1>About Us</h1>
                 <h4>
-                  <i class="fas fa-pen-nib"></i> I like to write
+                  <i className="fas fa-pen-nib"></i> I like to write
                 </h4>
                 <p>
                   Praesent mauris dolor, vehicula vel augue sit amet, varius
@@ -21,10 +21,10 @@ const about = () => {
                   magna mauris, vestibulum vel justo eu, imperdiet tempus augue.
                 </p>
                 <p className="top-quote">
-                  <i class="fas fa-quote-left"></i>
+                  <i className="fas fa-quote-left"></i>
                   Nam id lacus bibendum, iaculis purus at, egestas neque.
                   Vestibulum ultricies felis quis volutpat feugiat.
-                  <i class="fas fa-quote-right"></i>
+                  <i className="fas fa-quote-right"></i>
                 </p>
                 <button className="button">
                   <span>Go Somewhere </span>

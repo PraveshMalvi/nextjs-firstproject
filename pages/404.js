@@ -13,7 +13,7 @@ const error404 = () => {
         </h1>
         <h4 className="mb-2">You have found a page that doesn't exist.</h4>
         <p className="mb-4">Breathe in breathe out, go back and try again.</p>
-        <Link href="/">
+        <Link href="/" passHref>
           <button className="button">
             <span>BACK TO HOMEPAGE</span>
           </button>

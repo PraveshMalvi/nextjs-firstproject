@@ -44,7 +44,7 @@ const blog = ({ data }) => {
                           Published 2 Days ago
                         </small>
                       </p>
-                      <Link href={`/blog/${elem.id}`}>
+                      <Link href={`/blog/${elem.id}`} passHref>
                         <button className="button">
                           <span>Read More</span>
                         </button>

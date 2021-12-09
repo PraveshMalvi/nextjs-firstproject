@@ -6,7 +6,7 @@ const navbar = () => {
       <header className="w-75 m-auto">
         <nav className="navbar navbar-expand-lg navbar-light bg-light mt-3">
           <div className="container">
-            <Link href="/">
+            <Link href="/" passHref>
               <a className="navbar-brand">Navbar</a>
             </Link>
             <button
@@ -26,24 +26,24 @@ const navbar = () => {
             >
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link href="/">
+                  <Link href="/" passHref>
                     <a className="nav-link" aria-current="page">
                       Home
                     </a>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link href="/about">
+                  <Link href="/about" passHref>
                     <a className="nav-link">About</a>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link href="/blog">
+                  <Link href="/blog" passHref>
                     <a className="nav-link">Blog</a>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link href="/contact">
+                  <Link href="/contact" passHref>
                     <a className="nav-link">Contact</a>
                   </Link>
                 </li>

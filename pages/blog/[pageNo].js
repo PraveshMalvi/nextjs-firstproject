@@ -52,7 +52,7 @@ const pageNo = ({ data }) => {
                   <small className="text-muted">Published 2 Days ago</small>
                 </p>
                 <p className="text-capitalize">{body}</p>
-                <Link href="/blog">
+                <Link href="/blog" passHref>
                   <button className="button mt-4">
                     <span>Back To Blogs</span>
                   </button>

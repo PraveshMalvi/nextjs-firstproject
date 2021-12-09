@@ -10,7 +10,7 @@ const index = () => {
           <div className="row">
             <div className="col-12">
               <div className="top-content">
-                <i class="fas fa-feather-alt i-top">
+                <i className="fas fa-feather-alt i-top">
                   <span>I am a passionate writer.</span>
                 </i>
 
@@ -22,7 +22,7 @@ const index = () => {
                   lacus in mauris mollis tempor at sit amet libero. Vivamus
                   ullamcorper egestas justo at egestas.
                 </p>
-                <Link href="/blog">
+                <Link href="/blog" passHref>
                   <button className="button">
                     <span>Read My Blogs</span>
                   </button>
