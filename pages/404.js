@@ -11,7 +11,7 @@ const error404 = () => {
           <strong className="me-2">404</strong>
           <i className="fas fa-bug"></i>
         </h1>
-        <h4 className="mb-2">You have found a page that doesn't exist.</h4>
+        <h4 className="mb-2">You have found a page that does not exist.</h4>
         <p className="mb-4">Breathe in breathe out, go back and try again.</p>
         <Link href="/" passHref>
           <button className="button">
